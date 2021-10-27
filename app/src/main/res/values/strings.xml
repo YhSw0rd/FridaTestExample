@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">fridatestexample</string>
+    <string name="pop_toast_string">弹吐司</string>
+    <string name="jump_page_string">跳转</string>
+    <string name="jump_param_name">名字</string>
+    <string name="jump_param_age">年龄</string>
+    <string name="login_username_label">用户名:</string>
+    <string name="login_username_hint">无法登陆</string>
+    <string name="login_password_label">密码:</string>
+    <string name="login_password_hint">肯定不对</string>
+    <string name="login_button">登陆</string>
+    <string name="lv3_button1">获取字符串1</string>
+    <string name="lv3_button2">获取字符串2</string>
+    <string name="lv3_button3">检测</string>
+    <string name="lv4_call_quit">这个页面需要主动调用退出函数</string>
+</resources>
