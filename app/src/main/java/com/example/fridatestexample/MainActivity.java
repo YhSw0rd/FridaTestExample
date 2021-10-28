@@ -10,6 +10,7 @@ import com.example.fridatestexample.lv.lv1.Lv1;
 import com.example.fridatestexample.lv.lv2.Lv2;
 import com.example.fridatestexample.lv.lv3.Lv3;
 import com.example.fridatestexample.lv.lv4.Lv4;
+import com.example.fridatestexample.lv.lv5.Lv5;
 
 import java.util.ArrayList;
 
@@ -36,5 +37,6 @@ public class MainActivity extends AppCompatActivity {
         lvArrayList.add(new Lv2());
         lvArrayList.add(new Lv3());
         lvArrayList.add(new Lv4());
+        lvArrayList.add(new Lv5());
     }
 }

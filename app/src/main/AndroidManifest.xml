@@ -10,25 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FridaTestExample">
         <activity
-            android:name="com.example.fridatestexample.lv.lv4.Lv4Activity"
+            android:name=".lv.lv5.Lv5Activity"
             android:exported="true" />
         <activity
-            android:name="com.example.fridatestexample.lv.lv3.Lv3Activity"
+            android:name=".lv.lv4.Lv4Activity"
             android:exported="true" />
         <activity
-            android:name="com.example.fridatestexample.lv.lv2.Lv2Activity"
+            android:name=".lv.lv3.Lv3Activity"
             android:exported="true" />
         <activity
-            android:name="com.example.fridatestexample.LvItem"
+            android:name=".lv.lv2.Lv2Activity"
             android:exported="true" />
         <activity
-            android:name="com.example.fridatestexample.lv.lv1.Lv1Activity"
+            android:name=".LvItem"
             android:exported="true" />
         <activity
-            android:name="com.example.fridatestexample.MainActivity"
+            android:name=".lv.lv1.Lv1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Myapplication2.NoActionBar">
+            android:theme="@style/Theme.FridaTestExample.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

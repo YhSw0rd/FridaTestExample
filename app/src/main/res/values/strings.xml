@@ -13,4 +13,5 @@
     <string name="lv3_button2">获取字符串2</string>
     <string name="lv3_button3">检测</string>
     <string name="lv4_call_quit">这个页面需要主动调用退出函数</string>
+    <string name="lv5_change_property_value">修改类的属性值</string>
 </resources>

@@ -14,12 +14,12 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.Myapplication2.NoActionBar">
+    <style name="Theme.FridaTestExample.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.Myapplication2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.FridaTestExample.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.Myapplication2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.FridaTestExample.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
