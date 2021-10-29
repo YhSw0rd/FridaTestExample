@@ -14,4 +14,5 @@
     <string name="lv3_button3">检测</string>
     <string name="lv4_call_quit">这个页面需要主动调用退出函数</string>
     <string name="lv5_change_property_value">修改类的属性值</string>
+    <string name="lv6_tip">点击检测按钮显示未检测到时退出</string>
 </resources>

@@ -18,8 +18,8 @@ extern "C" JNIEXPORT jboolean JNICALL Java_com_example_fridatestexample_lv_lv5_L
     //  选字符串短的，要不怕溢出了
     int length = strlen(compareCharArray) < strlen(charArray) ? strlen(compareCharArray):strlen(charArray);
     int sameChars = 0;
-    for(int i = 0 ; i < length ; i++){
-        if( charArray[i] ==  compareCharArray[i] ){
+    for(int i = 0 ; i < length ; i++) {
+        if (charArray[i] == compareCharArray[i]) {
             ++sameChars;
         }
     }
