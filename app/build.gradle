@@ -5,6 +5,10 @@ plugins {
 android {
     compileSdk 31
 
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
     defaultConfig {
         applicationId "com.example.fridatestexample"
         minSdk 21

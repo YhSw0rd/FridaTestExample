@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FridaTestExample">
         <activity
+            android:name=".lv.lv7.Lv7Activity"
+            android:exported="true" />
+        <activity
             android:name=".lv.lv6.Lv6Activity"
             android:exported="true" />
         <activity

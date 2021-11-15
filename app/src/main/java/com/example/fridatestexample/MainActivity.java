@@ -2,6 +2,7 @@ package com.example.fridatestexample;
 
 import android.os.Bundle;
 import android.widget.GridView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,6 +19,9 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
+    static {
+        System.loadLibrary("main");
+    }
 
     private ArrayList<Lv> lvArrayList = new ArrayList<Lv>();
 
@@ -29,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         LvAdapter lvAdapter = new LvAdapter(this,R.layout.lv_item,this.lvArrayList);
         GridView gridView = findViewById(R.id.lv_grid);
         gridView.setAdapter(lvAdapter);
-
+        Toast.makeText(this,getHelloWorld(),Toast.LENGTH_LONG).show();
     }
 
 
@@ -41,4 +45,7 @@ public class MainActivity extends AppCompatActivity {
         lvArrayList.add(new Lv5());
         lvArrayList.add(new Lv6());
     }
+
+
+    private native String getHelloWorld();
 }

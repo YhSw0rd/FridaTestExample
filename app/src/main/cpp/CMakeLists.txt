@@ -16,7 +16,10 @@ project("fridatestexample")
 # Gradle automatically packages shared libraries with your APK.
 
 
-
+add_library(
+        main
+        SHARED
+        main.cpp )
 add_library(
         lv2
         SHARED
@@ -33,6 +36,10 @@ add_library(
         lv6
         SHARED
         lv6.cpp )
+#add_library(
+#        lv7
+#        SHARED
+#        lv7.cpp )
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
@@ -50,7 +57,9 @@ find_library( # Sets the name of the path variable.
 # Specifies libraries CMake should link to your target library. You
 # can link multiple libraries, such as libraries you define in this
 # build script, prebuilt third-party libraries, or system libraries.
-
+target_link_libraries(
+        main
+        ${log-lib} )
 target_link_libraries(
         lv2
         ${log-lib} )
@@ -63,3 +72,6 @@ target_link_libraries(
 target_link_libraries(
         lv6
         ${log-lib} )
+#target_link_libraries(
+#        lv7
+#        ${log-lib} )
