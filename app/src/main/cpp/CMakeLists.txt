@@ -36,10 +36,10 @@ add_library(
         lv6
         SHARED
         lv6.cpp )
-#add_library(
-#        lv7
-#        SHARED
-#        lv7.cpp )
+add_library(
+        lv7
+        SHARED
+        lv7.cpp )
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
@@ -72,6 +72,6 @@ target_link_libraries(
 target_link_libraries(
         lv6
         ${log-lib} )
-#target_link_libraries(
-#        lv7
-#        ${log-lib} )
+target_link_libraries(
+        lv7
+        ${log-lib} )

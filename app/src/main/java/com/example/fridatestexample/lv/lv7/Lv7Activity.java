@@ -11,7 +11,7 @@ import com.example.fridatestexample.R;
 
 public class Lv7Activity extends AppCompatActivity {
 
-    private Lv7 lv7;
+    private Lv7 lv7 = new Lv7();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
